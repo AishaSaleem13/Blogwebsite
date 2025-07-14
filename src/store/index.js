@@ -8,4 +8,4 @@ import SliceAuth from './authSlice'
   },
   devTools: true,
  })
- export  default Store
+ export  default Store 
