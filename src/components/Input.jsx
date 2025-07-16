@@ -1,7 +1,7 @@
 import React from 'react'
 import { useId } from 'react'
 const id = useId()
- const Input = React.forwardRef (function Input({
+ const MainInput = React.forwardRef (function Input({
     label,
     type='text',
     className='',
@@ -28,4 +28,4 @@ const id = useId()
   
 
 
-export default Input
+export default MainInput
